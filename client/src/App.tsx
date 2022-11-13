@@ -9,10 +9,10 @@ function App() {
     <div className="font-montserrat w-full min-h-screen px-4 py-6">
       <div className="flex flex-col justify-center items-center h-full max-w-2xl mx-auto space-y-5">
         <div>
-          <img src="/astronaut_2.gif" className="h-72" alt="Astronaut animation" />
+          <img src="/astronaut_2.gif" className="h-[18rem]" alt="Astronaut animation" />
         </div>
         <div>
-          <p className="text-xl font-semibold text-center">Nuestro sitio web está en construcción... ¡Déjanos tu correo y te notificaremos cuando esté lista!</p>
+          <p className="text-xl font-semibold text-center">Nuestro sitio web está en construcción... ¡Déjanos tu correo y te notificaremos cuando esté listo!</p>
         </div>
         <div className="flex max-w-[20rem] w-full">
           <input type="text" className="rounded-l-lg border border-brand-orange text-brand-orange block flex-1 text-sm px-3.5 py-1.5 placeholder:text-brand-orange placeholder:opacity-60 focus:outline-none" placeholder="tharsis.uni@gmail.com" />
