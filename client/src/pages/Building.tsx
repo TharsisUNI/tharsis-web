@@ -19,6 +19,7 @@ import {
 } from "firebase/firestore";
 import { ChangeEvent, FormEvent, useState } from "react";
 import { db } from "../lib/firebase.config";
+import { cryptoManager } from "../utils/cryptoManager";
 
 const Building = () => {
   const [email, setEmail] = useState<string>("");
@@ -33,14 +34,30 @@ const Building = () => {
 
   const handleSubmit = async (e: FormEvent<HTMLFormElement>) => {
     e.preventDefault();
+    setMsgExists(false)
     setIsLoading(true);
     try {
       const q = query(collection(db, "emails"), where("email", "==", email));
       const docSnap = await getDocs(q);
       if (docSnap.empty) {
+        const response = await fetch(
+          `${import.meta.env.VITE_SERVER_URI}/sendmail`,
+          {
+            method: 'POST',
+            body: JSON.stringify({
+              email,
+            }),
+            headers: {
+              'Content-Type': 'application/json',
+              'Authorization': cryptoManager.encryptText(`${import.meta.env.VITE_CLIENT_MAIL_KEY}`),
+            },
+          }
+        );
+        const { messageId } = await response.json();
         await addDoc(collection(db, "emails"), {
           email,
           timestamp: serverTimestamp(),
+          messageId,
         });
         setEmail("");
         setIsLoading(false);
