@@ -7,7 +7,7 @@
     "client:dev": "cd client && npm run dev",
     "server:dev": "cd server && npm run dev",
     "client:add": "cd client && npm install",
-    "server:add": "cd client && npm install"
+    "server:add": "cd server && npm install"
   },
   "workspaces": [
     "client",
