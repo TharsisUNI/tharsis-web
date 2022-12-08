@@ -7,21 +7,46 @@ export const Footer = () => {
 
     return (
         <div className="w-full border-b bg-brand-black">
-            <div className="max-w-7xl mx-auto px-16 py-2 flex items-center justify-between">
-                <div>
-                    <div>
-                        Descripcion
-                        <img
-                            src="/LOGO-sin-fondo-hd-resized.png"
-                            className="h-16"
-                            alt="Logo Tharsis"
-                        />
+            <div className="max-w-7xl mx-auto px-16  flex flex-col items-center justify-between h-full">
+                <div className="flex justify-between w-full border-b py-5">
+                    <div className="flex flex-col justify-between">
+                        <div className="w-72 text-white">
+                            <img
+                                src="/logo_principal_dark_1.png"
+                                className="h-20"
+                                alt="Logo Tharsis"
+                            />
+                            <p>We are Tharsis UNI, the team that will participate in the NASA Human Exploration Rover Challenge 2023.</p>
+                        </div>
+                        <div className="mt-10 text-white">
+                            <p>National University of Engineering</p>
+                            <p>Lima, Peru</p>
+                        </div>
                     </div>
-                    <div>Project</div>
-                    <div>Community</div>
-                    <div>Recent news</div>
+                    <div className="text-white">
+                        <p>Project</p>
+                        <ul>
+                            <li>About</li>
+                            <li>Support</li>
+                            <li>Contact</li>
+                        </ul>
+                    </div>
+                    <div className="text-white">
+                        <p>Community</p>
+                        <ul>
+                            <li>Join up!</li>
+                            <li>Events</li>
+                        </ul>
+                    </div>
+                    <div className="text-white">
+                        <p>Recent news</p>
+                        <ul className="underline underline-offset-1">
+                            <li>How is the space vehicle designed at UNI that has surprised NASA</li>
+                            <li>NASA selects UNI space vehicle among the best 15 designs for global contest</li>
+                        </ul>
+                    </div>
                 </div>
-                <div className="flex js">
+                <div className="flex items-center justify-between w-full py-3">
                     <p className="text-white">© {new Date().getFullYear()} Tharsis</p>
                     <div className="flex space-x-6">
                         <a href="https://www.facebook.com/tharsisUNI" target="_blank">
