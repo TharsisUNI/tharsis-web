@@ -193,7 +193,7 @@ const Building = () => {
           />
         </div>
         <p className="text-sm font-medium text-gray-600">
-          © {new Date().getFullYear()} Tharsis
+          © {new Date().getFullYear()} Tharsis UNI
         </p>
       </div>
     </div>
