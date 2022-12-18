@@ -1,0 +1,13 @@
+{
+  "items": {
+    "home": "Home",
+    "about": "About",
+    "events": "Events",
+    "community": "Community"
+  },
+  "member-access": "Member access",
+  "languages": {
+    "en": "English",
+    "es": "Spanish"
+  }
+}
