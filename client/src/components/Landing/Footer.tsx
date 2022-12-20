@@ -26,7 +26,7 @@ export const Footer = () => {
                         <p className="text-lg">Project</p>
                         <ul className="text-white text-opacity-50 mt-3">
                             <li>
-                                <a href="/about">About</a> 
+                                <a href="/about">About</a>
                             </li>
                             <li>
                                 <a href="/support" className="flex items-center">
