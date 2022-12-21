@@ -1,6 +1,6 @@
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
-import Building from "./pages/Building";
 import Dashboard from "./pages/Dashboard";
+import Landing from './pages/Landing';
 import NotFound from "./pages/NotFound";
 
 function App() {
@@ -9,7 +9,7 @@ function App() {
     <>
       <BrowserRouter>
         <Routes>
-          <Route path="/" element={<Building/>}/>
+          <Route path="/" element={<Landing/>}/>
           <Route path="/dashboard" element={<Dashboard/>}/>
           <Route path="*" element={<NotFound/>}/>
         </Routes>

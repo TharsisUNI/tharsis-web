@@ -75,7 +75,7 @@ const Building = () => {
   };
 
   return (
-    <div className="font-montserrat w-full min-h-screen px-4 py-6">
+    <div className="font-ubuntu w-full min-h-screen px-4 py-6">
       <div className="flex flex-col justify-center items-center h-full max-w-2xl mx-auto space-y-5">
         <div>
           <img
