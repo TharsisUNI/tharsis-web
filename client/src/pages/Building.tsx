@@ -187,13 +187,13 @@ const Building = () => {
         </div>
         <div>
           <img
-            src="/LOGO-sin-fondo-hd-resized.png"
+            src="/logo_principal_light_1.png"
             className="h-16"
             alt="Logo Tharsis"
           />
         </div>
         <p className="text-sm font-medium text-gray-600">
-          © {new Date().getFullYear()} Tharsis
+          © {new Date().getFullYear()} Tharsis UNI
         </p>
       </div>
     </div>

@@ -7,7 +7,7 @@ export const Navbar = () => {
       <div className="max-w-7xl mx-auto px-16 py-2 flex items-center justify-between">
         <div className="flex items-center space-x-14 text-lg">
           <img
-            src="/LOGO-sin-fondo-hd-resized.png"
+            src="/logo_principal_light_1.png"
             className="h-14"
             alt="Logo Tharsis"
           />

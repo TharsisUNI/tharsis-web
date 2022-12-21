@@ -10,11 +10,11 @@ We are Tharsis UNI ❤, the team that will participate in the NASA Human Explora
 
 # Look  our demo here! 
 
-https://tharsis-uni.vercel.app/
+https://www.tharsis.pe
 
 <h2>Frontend to BackEnd request/response diagram:</h2>
 
-[![68747470733a2f2f6d69726f2e6d656469756d2e636f6d2f6d61782f313430302f312a753878683377653278647039706944.png](https://i.postimg.cc/3J69rQ5Y/68747470733a2f2f6d69726f2e6d656469756d2e636f6d2f6d61782f313430302f312a753878683377653278647039706944.png)](https://postimg.cc/gnV3452T)
+[![Work-Flow-Tharsis.png](https://i.postimg.cc/tgSmchGM/Work-Flow-Tharsis.png)](https://postimg.cc/NyX492M6)
 
 
 ## Installation
