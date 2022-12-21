@@ -4,7 +4,7 @@ import { Navbar } from "../components/Landing/Navbar";
 const Landing = () => {
   return (
     <div className="w-full font-ubuntu">
-      <Navbar />
+      {/* <Navbar /> */}
       <p> Otras secciones</p>
       <Footer />
     </div>
