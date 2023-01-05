@@ -2,15 +2,15 @@ import {
   faFacebookF,
   faInstagram,
   faLinkedinIn,
-  faTwitter,
+  faTwitter
 } from "@fortawesome/free-brands-svg-icons";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faHeart, faRocket } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 export const Footer = () => {
   return (
-    <div className="w-full border-b bg-brand-black xl:px-24 md:px-20 px-14 fixed bottom-0">
-      <div className="mx-auto flex flex-col items-center justify-between w-full">
+    <div className="w-full bg-brand-black xl:px-24 md:px-20 px-14">
+      <div className="max-w-7xl mx-auto flex flex-col items-center justify-between w-full">
         <div className="xl:flex xl:flex-row xl:justify-between xl:w-full xl:py-5 border-b border-opacity-100 xl:h-full md:h-full md:py-5 md:flex md:flex-col py-10">
           <div className="flex flex-col justify-between">
             <div className="md:w-72 text-white text-opacity-50 ">
